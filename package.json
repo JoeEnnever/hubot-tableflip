@@ -2,7 +2,7 @@
   "name": "hubot-tableflip",
   "description": "flip a table",
   "version": "1.0.0",
-  "author": "Joe Ennever"
+  "author": "Joe Ennever",
   "license": "MIT",
 
   "keywords": [
