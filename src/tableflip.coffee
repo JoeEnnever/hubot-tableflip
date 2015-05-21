@@ -39,7 +39,7 @@ module.exports = (robot) ->
     i : '\u0131',
     j : '\u027E',
     k : '\u029E',
-    //l : '\u0283',
+    l : '\u0283',
     m : '\u026F',
     n : 'u',
     r : '\u0279',
@@ -62,5 +62,4 @@ module.exports = (robot) ->
     '\u2234' : '\u2235',
     '\r' : '\n'
   }
-  for (i in flipTable)
-    flipTable[flipTable[i]] = i
+  (flipTable[flipTable[i]] = i for i in flipTable)
