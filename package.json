@@ -1,8 +1,8 @@
 {
-  "name": "hubot-example",
-  "description": "An example script package for Hubot",
+  "name": "hubot-tableflip",
+  "description": "flip a table",
   "version": "1.0.0",
-  "author": "Tom Bell <tomb@tomb.io>",
+  "author": "Joe Ennever"
   "license": "MIT",
 
   "keywords": [
@@ -11,12 +11,9 @@
   ],
 
   "repository": {
-    "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-example.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-example/issues"
   },
 
   "dependencies": {
