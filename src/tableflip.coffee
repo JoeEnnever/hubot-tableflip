@@ -1,5 +1,5 @@
 # Description:
-#   Say Hi to Hubot.
+#   Flip a table
 #
 # Dependencies:
 #   None
@@ -8,14 +8,14 @@
 #   None
 #
 # Commands:
-#   hubot hello - "hello!"
-#   hubot orly - "yarly"
+#   hubot tableflip phrase - Flips the phrase
 #
 # Author:
-#   tombell
+#   joe ennever
 
 module.exports = (robot) ->
-  robot.respond /tableflip (.*)?/, (msg) ->
+  robot.respond /tableflip(.*)?/, (msg) ->
+    console.log("got here #{msg}")
     flipped = null
     if msg.match[2]
       flipped = flip(msg.match[2])
