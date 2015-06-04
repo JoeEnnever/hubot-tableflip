@@ -17,8 +17,8 @@ module.exports = (robot) ->
   robot.respond /tableflip(.*)?/, (msg) ->
     console.log("got here #{msg}")
     flipped = null
-    if msg.match[2]
-      flipped = flip(msg.match[2])
+    if msg.match[1]
+      flipped = flip(msg.match[1])
     else
       flipped = "┻━┻"
     msg.reply "(╯°□°）╯︵ #{flipped}"
