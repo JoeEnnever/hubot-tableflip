@@ -39,7 +39,7 @@ module.exports = (robot) ->
     i : '\u0131',
     j : '\u027E',
     k : '\u029E',
-    l : '\u0283',
+    l : 'l',
     m : '\u026F',
     n : 'u',
     o : 'o',
